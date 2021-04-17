@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="hibernateServer.cfg.xml/Hibernate">
+  <database-model serializer="dbm" dbms="MSSQL" family-id="MSSQL" format-version="4.19">
+    <root id="1">
+      <ServerVersion>13.0.1742</ServerVersion>
+    </root>
+    <database id="2" parent="1" name="E201241">
+      <ObjectId>6</ObjectId>
+      <Collation>Modern_Spanish_CI_AS</Collation>
+    </database>
+    <database id="3" parent="1" name="Prueba">
+      <ObjectId>5</ObjectId>
+      <Collation>Modern_Spanish_CI_AS</Collation>
+    </database>
+    <database id="4" parent="1" name="Veterinaria">
+      <ObjectId>7</ObjectId>
+      <Collation>Modern_Spanish_CI_AS</Collation>
+    </database>
+    <database id="5" parent="1" name="alumnos">
+      <ObjectId>9</ObjectId>
+      <Current>1</Current>
+      <Collation>Modern_Spanish_CI_AS</Collation>
+      <Fingerprint>9.44272/0005CE3A-DD0A-469C-89AC-70DEC83FABEE@DESKTOP-C46RV71</Fingerprint>
+    </database>
+    <database id="6" parent="1" name="master">
+      <ObjectId>1</ObjectId>
+      <Collation>Modern_Spanish_CI_AS</Collation>
+    </database>
+    <database id="7" parent="1" name="model">
+      <ObjectId>3</ObjectId>
+      <Collation>Modern_Spanish_CI_AS</Collation>
+    </database>
+    <database id="8" parent="1" name="msdb">
+      <ObjectId>4</ObjectId>
+      <Collation>Modern_Spanish_CI_AS</Collation>
+    </database>
+    <database id="9" parent="1" name="tarea_hibernate">
+      <ObjectId>8</ObjectId>
+      <Collation>Modern_Spanish_CI_AS</Collation>
+    </database>
+    <database id="10" parent="1" name="tempdb">
+      <ObjectId>2</ObjectId>
+      <Collation>Modern_Spanish_CI_AS</Collation>
+    </database>
+  </database-model>
+</dataSource>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#iniciarPostgreSql" text="Iniciar" />
+      <TableView fx:id="tablaDatos" layoutX="14.0" layoutY="61.0" prefHeight="298.0" prefWidth="571.0">
+        <columns>
+          <TableColumn fx:id="colum_idAlum" prefWidth="65.0" text="idAlumno" />
+          <TableColumn fx:id="colum_nombre" prefWidth="159.0" text="Nombre alumno" />
+            <TableColumn fx:id="colum_ciudad" prefWidth="118.0" text="Ciudad" />
+            <TableColumn fx:id="colum_estado" prefWidth="119.0" text="Estado" />
+            <TableColumn fx:id="colum_usuario" prefWidth="107.0" text="Nombre usuario" />
+        </columns>
+      </TableView>
+      <Button layoutX="489.0" layoutY="14.0" mnemonicParsing="false" onAction="#iniciarSqlServer" text="Test SQLServer" />
+   </children>
+</AnchorPane>

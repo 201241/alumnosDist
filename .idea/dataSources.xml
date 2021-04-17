@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="hibernatePost.cfg.xml/Hibernate" uuid="e550944c-df77-41c1-8d2f-8d5d02c20899">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate
+
+C:/Users/elian/OneDrive/Documentos/Base de datos/Base de datos distribuida/alumnosDist/src/hibernatePost.cfg.xml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/alumnosD3</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="hibernateServer.cfg.xml/Hibernate" uuid="26578ff7-f051-4049-a1d4-b24883954576">
+      <driver-ref>sqlserver.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate
+
+C:/Users/elian/OneDrive/Documentos/Base de datos/Base de datos distribuida/alumnosDist/src/hibernateServer.cfg.xml</remarks>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://localhost:1433;databaseName=alumnos</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="hibernate.cfg.xml/Hibernate" uuid="ce4b5801-e2e9-4e6b-97cb-0e89ee072cb1">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate
+
+C:/Users/elian/OneDrive/Documentos/Base de datos/Base de datos distribuida/alumnosDist/src/hibernate.cfg.xml</remarks>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/alumnosd2?serverTimezone=UTC</jdbc-url>
+    </data-source>
+  </component>
+</project>
