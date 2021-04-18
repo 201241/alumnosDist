@@ -122,6 +122,8 @@ public class Controller implements Initializable{
     @FXML
     public void iniciarSqlServer(){
 
+        this.listaDatos.clear();
+
         ResultSet reultQ;
         try{
             Connection con = ConexionSqlServer.getConexion();
@@ -131,8 +133,13 @@ public class Controller implements Initializable{
                     "\t\t\t inner join MYSQLLOCAL...estado as es on ci.idEstado = es.idestado");
             reultQ = ps.executeQuery();
             while (reultQ.next()){
+                System.out.println("idAlumno "+reultQ.getString(3) + " Nombre: " +reultQ.getString(5)+ " Ciudad: " + reultQ.getString(9)+ " Estado:" + reultQ.getString(11) + " User: "+ reultQ.getString(2));
+                DatoTabla datosServer = new DatoTabla(Integer.parseInt(reultQ.getString(3)), reultQ.getString(5), reultQ.getString(9), reultQ.getString(11), reultQ.getString(2));
+                this.listaDatos.add(datosServer);
                 //mostrar print de tabla
+
             }
+            this.tablaDatos.setItems(listaDatos);
             System.out.println("Peticion enviada");
         }catch (SQLException e){
             System.out.println( "Catch "+e.toString());

@@ -9,7 +9,6 @@ public class DatoTabla {
     private String usuario;
 
 
-
     public DatoTabla() {
     }
 
